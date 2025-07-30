@@ -1,0 +1,14 @@
+@font-face {
+    font-family:Monotype Corsiva ;
+    src: url('https://www.fontsquirrel.com/fonts/download/monoid');
+}
+h1 {
+    font-family: Monotype Corsiva;
+    color: cyan;
+}
+
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 50px;
+        background-color: antiquewhite;
+        }

@@ -22,7 +22,7 @@ header {
     width: 100%;
 }
 a {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 a:visited {

@@ -21,19 +21,19 @@ header {
     height: 80px;
     width: 100%;
 }
-a {
-    color: white !important;
-    text-decoration: none;
-}
-a:visited {
+header a {
     color: white;
     text-decoration: none;
 }
-a:hover {
+header a:visited {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
     color: deeppink;
     text-decoration: underline;
 }
-a:active {
+header a:active {
     color: darkcyan;
     text-decoration: none;
 }
@@ -94,4 +94,45 @@ footer {
 .over {
     font-size: 18px;
     margin: 25px 0;
+}
+button {
+    display: none;
+}
+/* 響應式語法 */
+@media screen and (max-width:780px) {
+    header ul {
+        display: none;
+    }
+    header h1 {
+        font-size: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .self h2 {
+        font-size: 45px;
+    }
+    button {
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        position:absolute;
+        top: 1.7%;
+        left: 5%;
+        border-color: transparent;
+    }
+}
+@media screen and (max-width:585px) {
+    header ul {
+        display: none;
+    }
+    header h1 {
+        font-size: 18px;
+    }
+    .self h2 {
+        font-size: 27px;
+    }
+    .self p {
+        font-size: 19px;
+    }
 }

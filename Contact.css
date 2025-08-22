@@ -132,3 +132,32 @@ other_media {
     align-items: center;
     right: auto;
 }
+/* 響應式語法 */
+@media screen and (max-width:780px) {
+    header ul {
+        display: none;
+    }
+    header h1 {
+        font-size: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    button {
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        position:absolute;
+        top: 1.7%;
+        left: 5%;
+        border-color: transparent;
+    }
+}
+@media screen and (max-width:585px) {
+    header ul {
+        display: none;
+    }
+    header h1 {
+        font-size: 18px;
+    }
+}

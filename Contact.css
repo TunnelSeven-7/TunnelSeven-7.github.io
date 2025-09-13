@@ -56,7 +56,7 @@ header ul {
   background: black;
   border: 1px solid white;
 }
-.menu:hover .dropdown {
+.lang:hover .dropdown {
   display: block;
 }
 button {
@@ -161,3 +161,4 @@ other_media {
         font-size: 18px;
     }
 }
+

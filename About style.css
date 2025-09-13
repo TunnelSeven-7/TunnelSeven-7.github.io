@@ -64,7 +64,7 @@ header ul {
   background: black;
   border: 1px solid white;
 }
-.menu:hover .dropdown {
+.lang:hover .dropdown {
   display: block;
 }
 button {
@@ -152,4 +152,5 @@ h2,p,dt,dd {
     header h1 {
         font-size: 18px;
     }
+
 }

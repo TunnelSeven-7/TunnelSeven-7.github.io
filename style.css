@@ -98,7 +98,7 @@ footer {
 button {
     display: none;
 }
-/* 響應式語法 */
+
 @media screen and (max-width:780px) {
     header ul {
         display: none;
